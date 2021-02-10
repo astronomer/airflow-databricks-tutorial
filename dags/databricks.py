@@ -35,12 +35,12 @@ with DAG('databricks_dag',
     default_args=default_args
     ) as dag:
 
-    opr_submit_run = DatabricksSubmitRunOperator(
-        task_id='submit_run',
-        databricks_conn_id='databricks',
-        new_cluster=new_cluster,
-        notebook_task=notebook_task
-    )
+    # opr_submit_run = DatabricksSubmitRunOperator(
+    #     task_id='submit_run',
+    #     databricks_conn_id='databricks',
+    #     new_cluster=new_cluster,
+    #     notebook_task=notebook_task
+    # )
     opr_run_now = DatabricksRunNowOperator(
         task_id='run_now',
         databricks_conn_id='databricks',
@@ -48,4 +48,4 @@ with DAG('databricks_dag',
         notebook_params=notebook_params
     )
 
-    opr_submit_run >> opr_run_now
+    # opr_submit_run >> opr_run_now
