@@ -1,5 +1,5 @@
 # airflow-databricks-tutorial
-This repo contains an Astronomer project with multiple example DAGs showing how to use Airflow to orchestrate Databricks jobs. A guide discussing the DAGs and concepts in depth will be published shortly.
+This repo contains an Astronomer project with multiple example DAGs showing how to use Airflow to orchestrate Databricks jobs. A guide discussing the DAGs and concepts in depth can be found [here](https://www.astronomer.io/guides/airflow-databricks).
 
 ## Tutorial Overview
 This tutorial has one DAGs showing how to use the following Databricks Operators:
