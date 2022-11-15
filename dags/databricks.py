@@ -1,5 +1,5 @@
 """
-### Run Databricks Notebooks with Airflow
+### Run Databricks Notebooks with Airflow   
 
 DAG that shows how to use the DatabricksSubmitRun and DatabricksRunNow operators.
 
