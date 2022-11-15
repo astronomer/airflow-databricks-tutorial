@@ -1,4 +1,6 @@
 """
+### Run Databricks Notebooks with Airflow
+
 DAG that shows how to use the DatabricksSubmitRun and DatabricksRunNow operators.
 
 Shows how to create a new cluster for the SubmitRun operator, as well as how to pass custom parameters to the RunNowOperator.
